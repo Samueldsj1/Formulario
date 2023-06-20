@@ -1,0 +1,59 @@
+        body {
+          font-family: Arial, sans-serif;
+          padding-top: 100px;
+        }
+    
+        .container {
+          max-width: 400px;
+          margin: 0 auto;
+          border: 1px solid gray;
+          background-color: whitesmoke;
+          padding-left: 20px;
+        }
+    
+        h1 {
+          text-align: center;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+    
+        .formulario {
+          margin-bottom: 5%;
+        }
+    
+        .formulario label {
+          display: block;
+          margin-bottom: 1%;
+          font-weight: bold;
+          
+        }
+    
+        .formulario input {
+          width: 90%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+    
+        #cadastro {
+            background-color:blue;
+            color: white;
+            padding: 10px 5%;
+            border: none;
+            border-radius: 4px;
+            width: 95%;
+        }
+        .linha {
+            border: 1px solid black;
+            margin-bottom: 5%;
+            margin-right: 20px;
+        }
+        .login{
+            text-align: center;
+            font-size: small;
+            max-width: 400px;
+            margin: 0 auto;
+            border: 1px solid gray;
+            background-color: #ccc;
+            padding: 10px 10px ;
+        }
+       
