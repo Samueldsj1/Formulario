@@ -34,7 +34,7 @@
           border-radius: 4px;
         }
     
-        #cadastro {
+        #calcule {
             background-color:blue;
             color: white;
             padding: 10px 5%;
@@ -47,9 +47,9 @@
             margin-bottom: 5%;
             margin-right: 20px;
         }
-        .login{
+        .resultado{
             text-align: center;
-            font-size: small;
+            font-weight: bold;  
             max-width: 400px;
             margin: 0 auto;
             border: 1px solid gray;

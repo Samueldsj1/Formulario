@@ -5,33 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>     
     <title>Cadastro</title>  
 </head>
 <body>
     <div class="container">
-        <h1>Cadastro</h1>
+        <h1></h1>
         <div class="linha"></div>
         <form>
             <div class="formulario">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+               <div>
+                <label for="">NOTA 01:</label>
+                <input type="text" name="" id="txtNota01">
+               </div>
+               <div>
+                <label for="">NOTA 02:</label>
+                <input type="text" name="" id="txtNota02">
+               </div>
+               <div>
+                <label for="">NOTA 03:</label>
+                <input type="text" name="" id="txtNota03">
+               </div>
+               <div>
+                <label for="">NOTA 04:</label>
+                <input type="text" name="" id="txtNota03">
+               </div>
             </div>
             <div class="formulario">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="formulario">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha">
-            </div>
-            <div class="formulario">
-                <button type="submit" id="cadastro">Cadastrar</button>
+               <button id="calcule" onclick="calcular()">Calcular</button>
             </div>
         </form>
     </div>
-    <div class="login">
-        <p>Já tem conta? <a href="#">Ir Para Login</a></p>
+    <div class="resultado">
+        <label for="">Media: </label>
+        <input type="text" name="" id="resultado" readonly>
     </div>
-     
 </body>
 </html>
